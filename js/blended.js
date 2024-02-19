@@ -215,11 +215,67 @@
 // }
 // calculateTotal();
 // console.log(calculateTotal(1));
-function calculateEvenTotal(number) {
-  let sum = 0;
-  for (let i = 1; i <= number; i++)
-    if (i % 2 === 0) {
-      sum += i;
-    }
-  return sum;
-}
+
+// function calculateEvenTotal(number) {
+//   let sum = 0;
+//   for (let i = 1; i <= number; i++)
+//     if (i % 2 === 0) {
+//       sum += i;
+//     }
+//   return sum;
+// }
+
+// const emptyArray = [];
+// const nonEmptyArray = [1, 2, 3];
+
+// console.log(Boolean(emptyArray)); // true
+// console.log(Boolean(nonEmptyArray)); // true
+
+// if (emptyArray) {
+//   console.log('if is in progress');
+// } else {
+//   console.log('else is not performed');
+// }
+
+// if (nonEmptyArray) {
+//   console.log('if is in progress');
+// } else {
+//   console.log('else is not performed');
+// }
+
+// function calculateEngravingPrice(message, pricePerWord) {
+//   const word = message.split(' ');
+//   return word.length * pricePerWord;
+// }
+// calculateEngravingPrice('JavaScript is in my blood', 10);
+
+// SLICE
+
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// const firstTwoEls = fruits.slice(0, 2);
+// const nonExtremeEls = fruits.slice(2, -1);
+// const lastThreeEls = fruits.slice(2);
+
+// console.log(fruits.slice(1, -1));
+
+// // INDEXOF
+
+// function getSlice(array, value) {
+//   const index = array.indexOf(value);
+//   if (index !== -1) {
+//     return array.slice(0, index + 1);
+//   } else {
+//     return [];
+//   }
+// }
+// getSlice(['Mango', 'Poly', 'Ajax'], 'Poly');
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   for (let i = 0; i < order.length; i += 1) {
+//     total += order[i];
+//   }
+//   return total;
+// }
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
